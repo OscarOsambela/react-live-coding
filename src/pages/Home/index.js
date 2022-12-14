@@ -5,6 +5,7 @@ import TrendingSearches from 'components/TrendingSearches'
 import SearchForm from 'components/SearchForm'
 import {Helmet} from 'react-helmet'
 
+
 export default function Home() {
   const {gifs} = useGifs()
 
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Helmet>
         <title>Home | Giffy</title>
+       
       </Helmet>
       <header className="o-header">
         <SearchForm />
@@ -30,3 +32,5 @@ export default function Home() {
     </>
   )
 }
+
+
